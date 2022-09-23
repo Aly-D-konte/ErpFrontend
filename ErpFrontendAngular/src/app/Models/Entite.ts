@@ -1,5 +1,5 @@
 export class Entite {
 
-  identite!:string;
+  identite!:number;
    nom!:string;
 }
