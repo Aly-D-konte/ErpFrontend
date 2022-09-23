@@ -20,6 +20,7 @@ import { HeaderUserResponsableComponent } from './header-user-responsable/header
 import { ListeActeurComponent } from './liste-acteur/liste-acteur.component';
 import { ActiviteComponent } from './activite/activite.component';
 import { PostulantComponent } from './postulant/postulant.component';
+import { LoginComponent } from './login/login.component';
 
 
 @NgModule({
@@ -40,7 +41,8 @@ import { PostulantComponent } from './postulant/postulant.component';
     HeaderUserResponsableComponent,
     ListeActeurComponent,
     ActiviteComponent,
-    PostulantComponent
+    PostulantComponent,
+    LoginComponent
 
   ],
   imports: [
