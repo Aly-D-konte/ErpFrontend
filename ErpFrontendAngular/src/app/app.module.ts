@@ -6,9 +6,15 @@ import { AppComponent } from './app.component';
 import { HeaderAdminComponent } from './header-admin/header-admin.component';
 import { TirageComponent } from './tirage/tirage.component';
 import { AuthentificationComponent } from './authentification/authentification.component';
+
 import { FormsModule } from '@angular/forms';
 import { AccueilComponent } from './accueil/accueil.component';
 import { ActeurAdminComponent } from './acteur-admin/acteur-admin.component';
+
+import { HeaderUserResponsableComponent } from './header-user-responsable/header-user-responsable.component';
+import { ListeActeurComponent } from './liste-acteur/liste-acteur.component';
+import { ActiviteComponent } from './activite/activite.component';
+import { PostulantComponent } from './postulant/postulant.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +23,11 @@ import { ActeurAdminComponent } from './acteur-admin/acteur-admin.component';
     TirageComponent,
     AuthentificationComponent,
     AccueilComponent,
-    ActeurAdminComponent
+    ActeurAdminComponent,
+    HeaderUserResponsableComponent,
+    ListeActeurComponent,
+    ActiviteComponent,
+    PostulantComponent
   ],
   imports: [
     BrowserModule,
