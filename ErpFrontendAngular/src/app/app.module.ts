@@ -6,13 +6,21 @@ import { AppComponent } from './app.component';
 import { HeaderAdminComponent } from './header-admin/header-admin.component';
 import { TirageComponent } from './tirage/tirage.component';
 import { AuthentificationComponent } from './authentification/authentification.component';
+import { HeaderUserResponsableComponent } from './header-user-responsable/header-user-responsable.component';
+import { ListeActeurComponent } from './liste-acteur/liste-acteur.component';
+import { ActiviteComponent } from './activite/activite.component';
+import { PostulantComponent } from './postulant/postulant.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderAdminComponent,
     TirageComponent,
-    AuthentificationComponent
+    AuthentificationComponent,
+    HeaderUserResponsableComponent,
+    ListeActeurComponent,
+    ActiviteComponent,
+    PostulantComponent
   ],
   imports: [
     BrowserModule,
